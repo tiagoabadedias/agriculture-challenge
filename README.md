@@ -10,7 +10,7 @@ API desenvolvida em NestJS para gerenciamento de fazendas, produtores rurais, cu
 ## Acesso Swagger API
 [Swagger](http://64.23.241.175:3007/api/docs)
 
-## Acesso API
+## Acesso API para requisições
 [API](http://64.23.241.175:3007/)
 
 
