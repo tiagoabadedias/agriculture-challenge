@@ -2,7 +2,8 @@
 
 API desenvolvida em NestJS para gerenciamento de fazendas, produtores rurais, culturas plantadas e colheitas. API foi desenvolvida utilizando o framework NestJS, com TypeORM para acesso ao banco de dados PostgreSQL, e conta com integração via Docker para facilitar a execução local.
 
-## Foi separado o projeto na pasta API e os serviços utilizando docker na pasta SERVICES
+## Foi separado o projeto na pasta API 
+## Serviços utilizando docker na pasta SERVICES
 
 ## Acesso Postman para TESTE
 [Postman](https://grey-escape-971397.postman.co/workspace/Team-Workspace~b8703f26-0ee8-4892-80be-f72267a54d2a/collection/5402127-125bafd5-316c-44e6-837c-f5ed78a27203?action=share&source=copy-link&creator=5402127)
