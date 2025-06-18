@@ -107,7 +107,8 @@ API
 Services
 - `docker-compose.yml` - Arquivo para subir ambiente
 
-- 
+
+
 
 ## Detalhamento das Entidades e Relacionamentos
 
@@ -119,9 +120,12 @@ Services
 | **Harvest**         | id, name, harvestYear, createdAt, updatedAt                               | 1 Harvest pode ter várias PlantedCultures |
 
 
+
+
 ## Documentação da API
 
 A documentação Swagger estará disponível em `http://localhost:3000/api/docs` quando a aplicação estiver em execução. 
+
 
 
 ## Cobertura de código dos testes
