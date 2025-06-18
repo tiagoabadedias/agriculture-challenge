@@ -77,6 +77,7 @@ npm run test
 npm run test:cov
 ```
 
+
 ## Estrutura do Projeto
 API
 - `src/modules/` - Módulos da aplicação
@@ -90,7 +91,9 @@ API
 Services
 - `docker-compose.yml` - Arquivo para subir ambiente
 
-Detalhamento das Entidades e Relacionamentos
+- 
+
+## Detalhamento das Entidades e Relacionamentos
 
 | Entidade            | Campos principais                                                         | Relacionamento |
 | ---                 | ---                                                                       | --- |
@@ -98,6 +101,7 @@ Detalhamento das Entidades e Relacionamentos
 | **Farm**            | id, name, city, state, totalArea, arableArea, vegetationArea, producerId  | Cada Farm pertence a 1 Producer. |
 | **PlantedCulture**  | id, name, area, farmId, harvestId                                         | Cada PlantedCulture pertence a 1 Farm e 1 Harvest |
 | **Harvest**         | id, name, harvestYear, createdAt, updatedAt                               | 1 Harvest pode ter várias PlantedCultures |
+
 
 ## Documentação da API
 
