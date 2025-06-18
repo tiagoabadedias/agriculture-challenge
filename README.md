@@ -112,6 +112,7 @@ Services
 
 ## Detalhamento das Entidades e Relacionamentos
 
+
 | Entidade            | Campos principais                                                         | Relacionamento |
 | ---                 | ---                                                                       | --- |
 | **Producer**        | id, name, document, createdAt, updatedAt                                  | 1 Producer pode ter várias Farms |
@@ -126,6 +127,9 @@ Services
 
 A documentação Swagger estará disponível em `http://localhost:3000/api/docs` quando a aplicação estiver em execução. 
 
+## A API está integrada com o winston para a geração de logs
+
+Foi criado um módulo de logs para gerar logs durante a execução do serviço
 
 
 ## Cobertura de código dos testes
