@@ -1,0 +1,37 @@
+version: "3.8"
+
+services:
+  api:
+    build:
+      context: ../api
+      dockerfile: Dockerfile
+    container_name: minha-api
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_USERNAME=meuusuario
+      - DB_PASSWORD=minhasenha
+      - DB_DATABASE=meubanco
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:16
+    container_name: meu-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: meuusuario
+      POSTGRES_PASSWORD: minhasenha
+      POSTGRES_DB: meubanco
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  postgres-data:
+  postgres-test-data:
