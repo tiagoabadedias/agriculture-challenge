@@ -115,7 +115,7 @@ Services
 
 ## Documentação da API
 
-A documentação Swagger estará disponível em `http://localhost:3000/api` quando a aplicação estiver em execução. 
+A documentação Swagger estará disponível em `http://localhost:3000/api/docs` quando a aplicação estiver em execução. 
 
 
 ## Cobertura de código dos testes
