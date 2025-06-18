@@ -135,3 +135,5 @@ Foi criado um módulo de logs para gerar logs durante a execução do serviço
 ## Cobertura de código dos testes
 
 A cobertura de código fica disponível no HTML dentro de `api/coverage/lcov-report/index.html`. 
+
+## Qualquer dúvida fico a disposição, Obrigado!
