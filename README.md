@@ -7,11 +7,15 @@ API desenvolvida em NestJS para gerenciamento de fazendas, produtores rurais, cu
 
 ## Acesso Postman para TESTE
 [Postman](https://grey-escape-971397.postman.co/workspace/Team-Workspace~b8703f26-0ee8-4892-80be-f72267a54d2a/collection/5402127-125bafd5-316c-44e6-837c-f5ed78a27203?action=share&source=copy-link&creator=5402127)
-
-![image](https://images-vending.sfo3.digitaloceanspaces.com/products/b142907c-4b58-48fa-97b7-cb1b9a2a759e.png)
+![image](https://images-vending.sfo3.digitaloceanspaces.com/products/fa69fc96-f7c2-4094-8066-905b60b7a36e.png)
 
 ## Acesso Swagger API
 [Swagger](http://64.23.241.175:3007/api/docs)
+![image](https://images-vending.sfo3.digitaloceanspaces.com/products/b142907c-4b58-48fa-97b7-cb1b9a2a759e.png)
+
+
+## Cobertura de código nos testes
+![image](https://images-vending.sfo3.digitaloceanspaces.com/products/d1cc076c-dbf4-492c-b6c8-467e5efa8b2e.png)
 
 ## Acesso API para requisições
 [API](http://64.23.241.175:3007/)
